@@ -12,7 +12,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app.kubernetes.io/name: eks-flask-demo
+        app.kubernetes.io/name: eks-flask-demo
   template:
     metadata:
       labels:
