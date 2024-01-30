@@ -19,7 +19,7 @@ spec:
         app.kubernetes.io/name: game-2048
     spec:
       containers:
-      - image: malibo8407/python36-flask-demo:v3
+        - image: malibo8407/eks-poc-flask:latest
         name: game-2048
         ports:
         - containerPort: 8080
